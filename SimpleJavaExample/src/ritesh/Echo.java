@@ -1,19 +1,15 @@
-/**
- * 
- */
 package ritesh;
 
-/**
- * @author RITESH
- *
- */
-public class AirthmaticOperation {
+public class Echo {
 
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-System.out.println("Hiiii");
+		for (String s: args) {
+            System.out.println(s);
+        }
 	}
+
 }
