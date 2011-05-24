@@ -62,7 +62,7 @@ public void actionPerformed(ActionEvent ae)
 	if(nw.isArmed())
 		System.out.println("New Selected");
 	if(cl.isArmed())
-		System.out.println("Cl;ose Selected");
+		System.out.println("Close Selected");
 	if(cp.isArmed())
 		System.out.println("Copy Selected");
 	if(pt.isArmed())
