@@ -28,9 +28,12 @@ JMenuBar mb;
 	 pt=new JMenuItem("Paste");
 	 
 	 file.add(nw);
+	 file.addSeparator();
 	 file.add(cl);
+	 file.addSeparator();
 	 edit.add(cp);
-	 edit.add(pt);
+	 edit.addSeparator();
+	 edit.add(pt);file.addSeparator();
 // Disable/Enable(false/true) the close Item
 	 cl.setEnabled(true);
 	 
