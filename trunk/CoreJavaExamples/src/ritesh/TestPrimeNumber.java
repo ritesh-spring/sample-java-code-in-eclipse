@@ -2,7 +2,7 @@ package ritesh;
 import java.io.*;
 public class TestPrimeNumber {
 
-	/**
+	/**																
 	 * @param args
 	 */
 	//static int count=0;
@@ -20,7 +20,7 @@ BufferedReader br=new BufferedReader(new InputStreamReader(System.in));
    if(count==2)
 	   System.out.println("Given no is a Prime Number:  "+num_to_test);
    else
-	   System.out.println(num_to_test+" is not a pprime number");
+	   System.out.println(num_to_test+" is not a prime number");
 	}
 
 }
