@@ -7,7 +7,7 @@ public class ThrowableExample {
 		 }
 		 public static void main(String[] args) {
 		 try { test(); }
-		 catch (Exception ex) { System.out.print("exception "); }
+		 catch (Error ex) { System.out.print("exception "); }
 		 System.out.print("elld ");
 		 }
 }
