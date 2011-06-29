@@ -19,7 +19,7 @@ public class WriteInAFile {
 		if(f.exists())
 		{
 		FileOutputStream fos=new FileOutputStream(f);
-		String str="My name is Ritesh, I am searching a JOB";
+		String str="My name is Ritesh, I am searching a JOB and you";
 		fos.write(str.getBytes());
 		fos.flush();
 		fos.close();
