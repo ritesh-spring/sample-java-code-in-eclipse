@@ -1,5 +1,5 @@
 package ritesh;
-
+//StartMain  Startl  EndMain  End1  Start2 Error  End2 
 public class TwoThreads {
 
 	private static Object resource = new Object();
