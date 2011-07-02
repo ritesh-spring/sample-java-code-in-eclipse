@@ -1,8 +1,8 @@
 package ritesh;
 
-public class TestThread implements Runnable {
+public class TestOne1 implements Runnable {
 	public static void main (String[] args) throws Exception {
-	Thread t = new Thread(new TestThread());
+	Thread t = new Thread(new TestOne1());
 	t.start();
 	System.out.print("Started");
 	t.join();
